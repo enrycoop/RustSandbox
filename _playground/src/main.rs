@@ -1,32 +1,22 @@
-/*fn main() {
-    // Variables
-    let x;
-    //println!("The value of x is: {x}");
-    x = 6;
-    println!("The value of x is: {x}");
+use std::io;
 
-    // Constants
-    const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
-    println!("Three hours in seconds: {THREE_HOURS_IN_SECONDS}s");
-
-}*/
 fn main() {
-    let x = 5;
+    let a = [1, 2, 3, 4, 5];
 
-    let x = x + 1;
+    println!("Please enter an array index.");
 
-    {
-        let x = x * 2;
-        println!("The value of x in the inner scope is: {x}");
-    }
+    let mut index = String::new();
 
-    println!("The value of x is: {x}");
+    io::stdin()
+        .read_line(&mut index)
+        .expect("Failed to read line");
 
-    let spaces = "   ";
-    let spaces = spaces.len();
+    let index: usize = index
+        .trim()
+        .parse()
+        .expect("Index entered was not a number");
 
-    println!("The spaces are: {spaces}");
-    let mut spaces = "   ";
-    spaces = spaces.len();
+    let element = a[index];
 
+    println!("The value of the element at index {index} is: {element}");
 }
