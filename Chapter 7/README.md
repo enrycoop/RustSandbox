@@ -7,10 +7,10 @@
 
 ---
 
-_Packages_: una feature di **Cargo** che permette di buildare, testare e condividere Crate.
-_Crates_: una alberatura di moduli che produce una libreria o un eseguibile.
-_Modules_ e _Use_: permettono di controllare l'organizzazione, scope e privacy dei paths.
-_Paths_: un modo di nominare un item, come ad esempio struct, funzioni e moduli.
+- _Packages_: una feature di **Cargo** che permette di buildare, testare e condividere Crate.
+- _Crates_: una alberatura di moduli che produce una libreria o un eseguibile.
+- _Modules_ e _Use_: permettono di controllare l'organizzazione, scope e privacy dei paths.
+- _Paths_: un modo di nominare un item, come ad esempio struct, funzioni e moduli.
 
 ## PACKAGE E CRATE
 
