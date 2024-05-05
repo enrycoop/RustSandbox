@@ -11,8 +11,7 @@ fn fibonacci(n: u128) -> u128 {
 fn fibonacci_iterative(n: u128) -> u128 {
     if n <= 0 {
         return 0;
-    }
-    if n == 1 || n == 2 {
+    } else if n == 1 || n == 2 {
         return 1;
     }
 
@@ -30,10 +29,10 @@ fn fibonacci_iterative(n: u128) -> u128 {
 
 fn main() {
     println!("Please input the n-th element to calculate");
-
     let mut n = String::new();
 
     io::stdin().read_line(&mut n).expect("Insert wrong value!");
+
     let n: u128 = match n.trim().parse() {
         Ok(num) => num,
         Err(_) => {
