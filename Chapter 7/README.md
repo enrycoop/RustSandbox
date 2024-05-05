@@ -16,6 +16,8 @@
 
 ---
 
-Un `Crate` è la più piccola quantità di codice che il compilatore considera per volta. Possono essere binari o librerie. Un binario produce un eseguibile e ha un main, mentre una libreria non hai un main.
+Un `Crate` è la più piccola quantità di codice che il compilatore considera per volta. Possono essere binari o librerie. Un binario produce un eseguibile e ha un main, mentre una libreria non hai un main e non compilano un eseguibile. Invece, definiscono funzionalità che intendono condividere su più progetti.
 
-Un `Package` è un bundle di 1 o più **Crates** che forniscono un set di funzionalità.
+Il `Crate root` è un file sorgente da cui il Compilatore Rust comincia e produce un modulo root del tuo Crate.
+
+Un `Package` è un bundle di 1 o più **Crates** che forniscono un set di funzionalità. Un package contiene un _Cargo.toml_ file che descrive come buildare questi Crates. [Cargo è attualmente un package che contine il crate binario per il command-line tool]
