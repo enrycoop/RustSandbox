@@ -2,7 +2,7 @@
 
 1. [Module System](#module-system)
 2. [Package e Crate](#package-e-crate)
-3. [Cargo-New walk through](#cargo-new-walk-trhough)
+3. [Cargo new walk through](#cargo-new-walk-trhough)
 
 ## MODULE SYSTEM
 
