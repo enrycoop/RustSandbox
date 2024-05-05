@@ -20,4 +20,8 @@ Un `Crate` è la più piccola quantità di codice che il compilatore considera p
 
 Il `Crate root` è un file sorgente da cui il Compilatore Rust comincia e produce un modulo root del tuo Crate.
 
-Un `Package` è un bundle di 1 o più **Crates** che forniscono un set di funzionalità. Un package contiene un _Cargo.toml_ file che descrive come buildare questi Crates. [Cargo è attualmente un package che contine il crate binario per il command-line tool]
+Un `Package` è un bundle di 1 o più **Crates** che forniscono un set di funzionalità. Un package contiene un _Cargo.toml_ file che descrive come buildare questi Crates [Cargo è attualmente un package che contine il crate binario per il command-line tool]. Un package può contenere più crate binary ma al più una library crate.
+
+### cargo new walk through
+
+Dopo che eseguiamo `cargo new`, vedremo che crea un progetto dove dentro c'è _Cargo.toml_ file che ci da un package. C'è anche una cartella _src_ che contiene il _main.rs_. Se apri il _Cargo.toml_ non c'è riferimento al _src/main.rs_. Cargo segue la convenzione che se src contiene un main.rs è una binary se contiene un lib.rs è una library. Un package può avere più binary crate mettendoli in una directory _src/bin_: ogni file sarà un crate binario separato.
