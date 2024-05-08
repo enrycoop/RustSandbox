@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"path": "Chapter 4/ownership"
+		},
+		{
+			"path": "Chapter 4/references_and_borrowing"
+		},
+		{
+			"path": "Chapter 4/slices"
+		},
+		{
+			"path": "Chapter 1/hello_world"
+		},
+		{
+			"path": "Chapter 2/guessing_game"
+		},
+		{
+			"path": "Chapter 3/control_flow"
+		},
+		{
+			"path": "Chapter 3/data_types"
+		},
+		{
+			"path": "Chapter 3/functions"
+		},
+		{
+			"path": "Chapter 3/variables"
+		},
+		{
+			"path": "Chapter 5/example"
+		},
+		{
+			"path": "Chapter 5/structures"
+		},
+		{
+			"path": "Chapter 6/concise_control_flow"
+		},
+		{
+			"path": "Chapter 6/enum_option_case_study"
+		},
+		{
+			"path": "Chapter 6/enums_and_pattern_matching"
+		},
+		{
+			"path": "Chapter 6/example"
+		},
+		{
+			"path": "Chapter 6/match_control_flow_construct"
+		},
+		{
+			"path": "fibonacci_seq"
+		}
+	],
+	"settings": {}
+}
