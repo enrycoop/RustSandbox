@@ -92,3 +92,7 @@ Un path può avere due forme:
 - Un **relative path** comincia dal modulo corrente e usa ```self```, ```superior```, o un identificatore del modulo corrente.
 
 Entrambi, path assoluti e relativi, sono seguiti da uno o più identificativi separati da ```::```.
+
+### Starting Relative Paths with _super_
+
+Possiamo costruire path relativi che appartengono al modulo padre, utilizzando ```super``` all'inizio del path, in modo analogo a ```../``` del filesystem. 
