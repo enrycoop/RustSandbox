@@ -19,7 +19,7 @@ fn fibonacci_iterative(n: u128) -> u128 {
     let mut n1: u128 = 1;
     let mut current = n1 + n2;
 
-    for _ in 3..(n + 1) {
+    for _ in 3..=n {
         current = n1 + n2;
         n2 = n1;
         n1 = current;
