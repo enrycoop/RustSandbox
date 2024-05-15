@@ -26,7 +26,6 @@ fn main() {
     let spaces = spaces.len();
 
     println!("The spaces are: {spaces}");
-    let mut spaces = "   ";
-    let spaces = spaces.len();
-
+    let mut _spaces = "   ";
+    let _spaces = _spaces.len();
 }

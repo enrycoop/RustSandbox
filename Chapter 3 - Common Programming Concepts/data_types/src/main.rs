@@ -17,40 +17,40 @@ fn main() {
     println!("The annotated value is {n}");
 
     // FLOATING POINT
-    let x = 2.0; // double precision float
+    let _x = 2.0; // double precision float
 
-    let y: f32 = 3.0; // single precision float
+    let _y: f32 = 3.0; // single precision float
 
     // NUMERIC OPERATIONS
     // addition
-    let sum = 5 + 10;
+    let _sum = 5 + 10;
 
     // subtraction
-    let difference = 95.5 - 4.3;
+    let _difference = 95.5 - 4.3;
 
     // multiplication
-    let product = 4 * 30;
+    let _product = 4 * 30;
 
     // division
-    let quotient = 56.7 / 32.2;
-    let truncated = -5 / 3; // results in -1
+    let _quotient = 56.7 / 32.2;
+    let _truncated = -5 / 3; // results in -1
 
     // remainder
-    let remainder = 43 % 5;
+    let _remainder = 43 % 5;
 
 
     // THE BOOLEAN TYPE
-    let t = true;
+    let _t = true;
 
-    let f: bool = false; // with explicit type annotation
+    let _f: bool = false; // with explicit type annotation
 
     // CHARACTER TYPE
     // char literals with single quotes is four bytes in size and repr. a
     // Unicode scalar value, which means it can represent a lot more than just ASCII.
-    let c = 'z';
+    let _c = 'z';
 
-    let z: char = 'ℤ';
-    let heart_eyed_cat = '😻';
+    let _z: char = 'ℤ';
+    let _heart_eyed_cat = '😻';
 
     /*********************************************************************/
     /* COMPOUND TYPES */
@@ -64,27 +64,27 @@ fn main() {
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 
     // to get the individual values we can use pattern matching
-    let (x, y, z) = tup;
-    println!("The value of y is: {y}");
+    let (_x, _y, _z) = tup;
+    println!("The value of y is: {_y}");
 
     // we can also access using .X
-    let five_hundred = tup.0;
-    let one = tup.2;
+    let _five_hundred = tup.0;
+    let _one = tup.2;
 
     // ARRAY TYPE
     // Unlike a tuple, every element of an array must have the same type.
     // arrays in Rust have a fixed length.
     // Arrays are useful when you want your data allocated on the stack rather than the heap.
-    let a = [1, 2, 3, 4, 5];
+    let _a = [1, 2, 3, 4, 5];
     // VECTOR
     // A vector is a similar collection type provided by the standard library
     // that is allowed to grow or shrink in size.
-    let months = ["January", "February", "March", "April", "May", "June", "July",
+    let _months = ["January", "February", "March", "April", "May", "June", "July",
         "August", "September", "October", "November", "December"];
-    let a: [i32; 5] = [6, 7, 8, 9, 10];
+    let _a: [i32; 5] = [6, 7, 8, 9, 10];
     let a = [3, 5]; // == let a = [3, 3, 3, 3, 3];
-    let first  = a[0];
-    let second = a[1];
+    let _first  = a[0];
+    let _second = a[1];
 
 
 

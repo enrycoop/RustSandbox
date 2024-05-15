@@ -22,7 +22,7 @@ fn main() {
     println!("{}", s);
 
     // DANGLING REFERENCES
-    let reference_to_nothing = no_dangle();
+    let _reference_to_nothing = no_dangle();
 }
 
 fn change(some_string: &mut String) {
