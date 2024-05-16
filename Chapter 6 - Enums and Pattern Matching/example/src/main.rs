@@ -8,12 +8,25 @@ enum Message {
 
 impl Message {
     fn call(&self) {
-        // method body would be defined here
+        match &self {
+           Message::Write(msg) => println!("{}", msg),
+           Message::Move { x, y } => println!("{{{}, {}}}", x, y),
+           Message::ChangeColor(r, g, b) => println!("({r}, {g}, {b})"),
+           _ => (),
+        }
     }
 }
 
 
 fn main() {
-    let m = Message::Write(String::from("hello"));
-    m.call();
+    let messages = [
+        Message::Write(String::from("hello")),
+        Message::Move { x: 5, y: 6 },
+        Message::ChangeColor(011, 12, 14),
+        Message::Quit,
+    ];
+    for m in messages {
+        m.call();
+    }
+
 }
