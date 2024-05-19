@@ -1,27 +1,27 @@
 fn main() {
     // Diversi modi di istanziare una stringa
-    let mut s = String::new();
+    let mut _s = String::new();
 
     let data = "Initial contents";
 
-    let s = data.to_string();
+    let _s = data.to_string();
 
-    let s = "Initial contents".to_string();
+    let _s = "Initial contents".to_string();
 
-    let s = String::from("initial contents");
+    let _s = String::from("initial contents");
 
     // le stringhe sono codificate in UTF-8
-    let hello = String::from("السلام عليكم");
-    let hello = String::from("Dobrý den");
-    let hello = String::from("Hello");
-    let hello = String::from("שָׁלוֹם");
-    let hello = String::from("नमस्ते");
-    let hello = String::from("こんにちは");
-    let hello = String::from("안녕하세요");
-    let hello = String::from("你好");
-    let hello = String::from("Olá");
-    let hello = String::from("Здравствуйте");
-    let hello = String::from("Hola");
+    let _hello = String::from("السلام عليكم");
+    let _hello = String::from("Dobrý den");
+    let _hello = String::from("_Hello");
+    let _hello = String::from("שָׁלוֹם");
+    let _hello = String::from("नमस्ते");
+    let _hello = String::from("こんにちは");
+    let _hello = String::from("안녕하세요");
+    let _hello = String::from("你好");
+    let _hello = String::from("Olá");
+    let _hello = String::from("Здравствуйте");
+    let _hello = String::from("Hola");
 
     // può crescere in dimensione e il suo contenuto può cambiare come nei vec.
     // In più puoi usare l'operatore + o la macro format! per concatenare i valori delle stringhe
@@ -37,9 +37,9 @@ fn main() {
     s.push('l');
     println!("s is {s}");
 
-    let s1 = String::from("Hello, ");
+    let _s1 = String::from("Hello, ");
     let s2 = String::from("world!");
-    let s1 = s1 + &s2; // note s1 has been moved here and can no longer be used
+    let _s1 = s1 + &s2; // note s1 has been moved here and can no longer be used
 
     // Sebbene sembrerebbe che faccia tante copie, + muove l'ownership di s1
 
@@ -47,7 +47,7 @@ fn main() {
     let s2 = String::from("tac");
     let s3 = String::from("toe");
 
-    let s = s1 + "-" + &s2 + "-" + &s3;
+    let _s = s1 + "-" + &s2 + "-" + &s3;
 
 
     let s1 = String::from("01");
@@ -57,7 +57,7 @@ fn main() {
 
     // la macro format! è più facile da leggere e usa i riferimenti quindi non prende
     // l'ownership di nessuno dei suoi parametri
-    let s = format!("{s1}-{s2}-{s3}");
+    let _s = format!("{s1}-{s2}-{s3}");
     println!("{}", format!("{s1}/{s2}/{s3}"));
 
 

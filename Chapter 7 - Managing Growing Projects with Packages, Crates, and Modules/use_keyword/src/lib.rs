@@ -22,4 +22,4 @@ pub fn eat_at_restaurant() {
 //     // --snip--
 // }
 
-use std::collections::*; //prendi tutti gli item pubblici definiti in sdf::collections
+//use std::collections::*; //prendi tutti gli item pubblici definiti in sdf::collections

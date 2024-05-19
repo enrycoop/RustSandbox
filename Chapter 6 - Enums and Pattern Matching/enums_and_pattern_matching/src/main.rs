@@ -18,40 +18,43 @@ enum IpAddrKind {
     V6,
 }
 
+#[allow(dead_code)]
 struct IpAddr {
     kind: IpAddrKind,
     address: String,
 }
 
+#[allow(dead_code)]
 enum IpAddrV2 {
     V4(String),
     V6(String),
 }
 
+#[allow(dead_code)]
 enum IpAddrV3 {
     V4(u8, u8, u8, u8),
     V6(String),
 }
 
 fn main() {
-    let home = IpAddr {
+    let _home = IpAddr {
         kind: IpAddrKind::V4,
         address: String::from("127.0.0.1"),
     };
 
-    let loopback = IpAddr {
+    let _loopback = IpAddr {
         kind: IpAddrKind::V6,
         address: String::from("::1"),
     };
 
     // V2
-    let home = IpAddrV2::V4(String::from("127.0.0.1"));
-    let loopback = IpAddrV2::V6(String::from("::1"));
+    let _home = IpAddrV2::V4(String::from("127.0.0.1"));
+    let _loopback = IpAddrV2::V6(String::from("::1"));
 
     // V3
-    let home = IpAddrV3::V4(127, 0, 0, 1);
-    let loopback = IpAddrV3::V6(String::from("::1"));
+    let _home = IpAddrV3::V4(127, 0, 0, 1);
+    let _loopback = IpAddrV3::V6(String::from("::1"));
 
 }
 
-fn route(ip_kind: IpAddrKind) {}
+fn _route(_ip_kind: IpAddrKind) {}

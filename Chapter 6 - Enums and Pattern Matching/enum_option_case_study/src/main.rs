@@ -1,8 +1,8 @@
 fn main() {
-    let some_number = Some(5);
-    let some_char = Some('e');
+    let _some_number = Some(5);
+    let _some_char = Some('e');
 
-    let absent_number: Option<i32> = None;
+    let _absent_number: Option<i32> = None;
 
     let x = Some("value");
     assert_eq!(x.expect("fruits are healthy"), "value");

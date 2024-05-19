@@ -1,9 +1,10 @@
+#[allow(dead_code)]
 #[derive(Debug)] // so we can inspect the state in a minute
 enum UsState {
     Alabama,
     Alaska,
 }
-
+#[allow(dead_code)]
 enum Coin {
     Penny,
     Nickel,
@@ -35,15 +36,18 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
 
 fn add_fancy_hat() {}
 fn remove_fancy_hat() {}
-fn move_player(num_spaces: u8) {}
+#[allow(dead_code)]
+fn move_player(_num_spaces: u8) {}
+#[allow(dead_code)]
 fn reroll() {}
+
 
 fn main() {
     println!("{}", value_in_cents(Coin::Quarter(UsState::Alaska)));
 
     let five = Some(5);
-    let six = plus_one(five);
-    let none = plus_one(None);
+    let _six = plus_one(five);
+    let _none = plus_one(None);
 
     let dice_roll = 9;
     // match dice_roll {

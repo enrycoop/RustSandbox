@@ -18,7 +18,7 @@ fn main() {
     let team_name = String::from("Blue");
 
     // usiamo copied per ottenere un Option<i32> invece di un Option<&i32>
-    let score = scores.get(&team_name).copied().unwrap_or(0);
+    let _score = scores.get(&team_name).copied().unwrap_or(0);
 
     // Iteriamo
     for (key, value) in &scores {

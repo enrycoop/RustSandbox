@@ -36,6 +36,7 @@
 // }
 
 // pub to enums and structs
+#[allow(dead_code)]
 mod back_of_house {
     pub struct Breakfast {
         pub toast: String,
@@ -69,7 +70,7 @@ pub fn eat_at_resturant() {
     //meal.seasonal_fruit = String::from("blueberries");
 
     // a differenza di enum public, tutte le sue varianti sono public
-    let order1 = back_of_house::Appetizer::Soup;
-    let order2 = back_of_house::Appetizer::Salad;
+    let _order1 = back_of_house::Appetizer::Soup;
+    let _order2 = back_of_house::Appetizer::Salad;
 }
 

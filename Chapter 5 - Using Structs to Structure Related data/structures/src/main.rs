@@ -33,18 +33,19 @@ fn main() {
     user1.email = String::from("m.rossi@mail.com");
 
     // Struct Update Syntax
-    // let user2 = User {
-    //     active: user1.active,
-    //     username: user1.username,
-    //     email: String::from("another@example.com"),
-    //     sign_in_count: user1.sign_in_count,
-    // };
-    // Note that the struct update syntax uses = like an assignment; this is because it moves the data
     let user2 = User {
-        email: String::from("m.rossi@mail.com"),
-        ..user1
+        active: user1.active,
+        username: user1.username,
+        email: String::from("another@example.com"),
+        sign_in_count: user1.sign_in_count,
     };
+    // Note that the struct update syntax uses = like an assignment; this is because it moves the data
+    // let user2 = User {
+    //     email: String::from("m.rossi@mail.com"),
+    //     ..user1
+    // };
     println!("{}", user2.email);
+    let _usr = build_user("mario".to_string(), "rossi".to_string());
 
     // Tuple structs
     let black = Color(0, 0, 0);

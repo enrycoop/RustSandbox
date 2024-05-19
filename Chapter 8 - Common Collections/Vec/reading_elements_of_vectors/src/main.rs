@@ -27,7 +27,7 @@ fn main() {
     // println!("{:?}", does_not_exist);
 
     // problemi con il borrowing
-    let mut v = vec![1, 2, 3, 4, 5];
+    let mut _v = vec![1, 2, 3, 4, 5];
     let first = &v[0];
 
     // cannot borrow `v` as mutable because it is also borrowed as immutable
