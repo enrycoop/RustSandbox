@@ -1,4 +1,6 @@
-fn largest(list: &[i32]) -> &i32 {
+
+// Per poter confrontare in una generic il tipo T deve implementare il trait std::cmp::PartialOrd
+fn largest<T: std::cmp::PartialOrd>(list: &[T]) -> &T {
     let mut largest = &list[0];
 
     for item in list {
@@ -16,8 +18,8 @@ fn main() {
     let result = largest(&number_list);
     println!("The largest number is {}", result);
 
-    let number_list = vec![102, 34, 6000, 89, 54, 2, 43, 8];
+    let char_list = vec!['y', 'm', 'a', 'q'];
 
-    let result = largest(&number_list);
-    println!("The largest number is {}", result);
+    let result = largest(&char_list);
+    println!("The largest char is {}", result);
 }

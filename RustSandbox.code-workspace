@@ -83,6 +83,12 @@
 		},
 		{
 			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/removing_duplication_by_extracting_a_function"
+		},
+		{
+			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/generic_in_functions"
+		},
+		{
+			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/generic_in_struct"
 		}
 	],
 	"settings": {}
