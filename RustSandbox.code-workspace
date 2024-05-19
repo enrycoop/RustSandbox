@@ -92,6 +92,9 @@
 		},
 		{
 			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/defining_a_trait"
+		},
+		{
+			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/aggregator"
 		}
 	],
 	"settings": {}
