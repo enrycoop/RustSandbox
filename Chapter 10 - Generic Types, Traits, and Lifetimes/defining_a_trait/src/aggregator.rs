@@ -2,7 +2,9 @@ pub mod tweet;
 pub mod news_article;
 
 pub trait Summary {
+    fn summarize_author(&self) -> String;
+
     fn summarize(&self) -> String {
-        String::from("(Read more...)")
+        format!("(Read more from {}...)", self.summarize_author())
     }
 }

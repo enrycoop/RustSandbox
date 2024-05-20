@@ -8,6 +8,10 @@ pub struct Tweet {
 }
 
 impl Summary for Tweet {
+    fn summarize_author(&self) -> String {
+        format!("@{}", self.username)
+    }
+
     fn summarize(&self) -> String {
         format!("{}: {}", self.username, self.content)
     }
