@@ -1,0 +1,6 @@
+[package]
+name = "validating_references_with_lifetimes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

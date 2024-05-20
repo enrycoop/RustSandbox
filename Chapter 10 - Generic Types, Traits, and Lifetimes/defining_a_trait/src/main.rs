@@ -1,13 +1,11 @@
 mod aggregator;
 
 use std::fmt::{Debug, Display};
-
+use crate::aggregator::Summary;
 use crate::aggregator::tweet::Tweet;
 use crate::aggregator::news_article::NewsArticle;
-use crate::aggregator::Summary;
 
 // TRAIT AS PARAMETERs
-
 pub fn notify(item: &impl Summary) {
     println!("Breaking news! {}", item.summarize());
 }
@@ -28,7 +26,7 @@ where
 }   
 
 // returning Types that implement traits
-fn returns_summarizable() -> impl Summary {
+fn _returns_summarizable() -> impl Summary {
     Tweet {
         username: String::from("horse_ebooks"),
         content: String::from(
@@ -38,7 +36,6 @@ fn returns_summarizable() -> impl Summary {
         retweet: false,
     }
 }
-
 
 fn main() {
     let tweet = Tweet {
