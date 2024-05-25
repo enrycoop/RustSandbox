@@ -17,7 +17,7 @@ non nel body. Le annotazioni lifetime diventano parte del contratto della funzio
 Avere nelle signature delle funzioni i contratti significa che l'analisi che il 
 compilatore rust deve fare è semplice.
  */
-fn longest<'a>(x: &'a str, y: &str) -> &'a str {
+fn longest<'a>(x: &'a str, _y: &str) -> &'a str {
     x
 }
 

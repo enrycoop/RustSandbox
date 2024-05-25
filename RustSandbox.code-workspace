@@ -98,6 +98,9 @@
 		},
 		{
 			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/validating_references_with_lifetimes"
+		},
+		{
+			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/lifetime_annotations_in_struct_definitions"
 		}
 	],
 	"settings": {}
