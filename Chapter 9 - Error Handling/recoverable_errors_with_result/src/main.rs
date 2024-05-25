@@ -40,10 +40,8 @@ fn main() {
             panic!("Problem opening the file: {:?}", error);
         }
     });
+    let unexistent_file = "helloooouwwww.txt";
+    let _greeting_file = File::open(unexistent_file)
+        .expect(format!("{} should be included in this project", unexistent_file).as_str());
 
-    let _greeting_file = File::open("Hellodds.txt")
-        .expect("Hello.txt should be included in this project");
-
-
-    
 }

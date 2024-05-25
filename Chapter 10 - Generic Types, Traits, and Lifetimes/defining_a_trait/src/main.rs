@@ -27,25 +27,11 @@ where
 
 // returning Types that implement traits
 fn _returns_summarizable() -> impl Summary {
-    Tweet {
-        username: String::from("horse_ebooks"),
-        content: String::from(
-            "of course, as you probably already know, people",
-        ),
-        reply: false,
-        retweet: false,
-    }
+    Tweet::new()
 }
 
 fn main() {
-    let tweet = Tweet {
-        username: String::from("horse_ebooks"),
-        content: String::from(
-            "of course, as you probably already know, people",
-        ),
-        reply: false,
-        retweet: false,
-    };
+    let tweet = Tweet::new();
 
     println!("1 new tweet: {}", tweet.summarize());
 
