@@ -1,7 +1,5 @@
 use std::error::Error;
-use std::fs;
 use std::fs::File;
-use std::io;
 
 // longer
 // fn read_username_from_file() -> Result<String, io::Error> {
@@ -67,7 +65,6 @@ use std::io;
 
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let greeting_file = File::open("hello.txt")?;
-
+    let _greeting_file = File::open("hello.txt")?;
     Ok(())
 }
