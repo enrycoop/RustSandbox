@@ -101,6 +101,9 @@
 		},
 		{
 			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/lifetime_annotations_in_struct_definitions"
+		},
+		{
+			"path": "Chapter 11 - Writing Automated Tests/adder"
 		}
 	],
 	"settings": {}
