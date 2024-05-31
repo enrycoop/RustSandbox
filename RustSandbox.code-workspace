@@ -104,6 +104,9 @@
 		},
 		{
 			"path": "Chapter 11 - Writing Automated Tests/adder"
+		},
+		{
+			"path": "projects/minigrep"
 		}
 	],
 	"settings": {}
