@@ -14,3 +14,12 @@ be limited to the following:
   2) Setting up any other configuration
   3) Calling a run function in lib.rs
   4) Handling the error if run returns an error
+
+## Test Driven Development (TDD)
+Si compone dei seguenti step:
+1) scrivi un test che fallisce ed eseguilo per assicurarti che fallisca per le ragioni che ti aspetti
+2) Scrivi o modifica solo il codice che permette ai nuovi test di passare.
+3) Rifattorizza il codice appena aggiunto o cambiato e assicurati che i test continuino a passare.
+4) ripeti dal passo 1!
+
+Questa e` solo una delle tante modalità di scrivere il codice, TDD puo aiutare durante la fase di design. Scrivere i test prima di scrivere codice aiuta ad avere una grande test coverage durante il processo.
