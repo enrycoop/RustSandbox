@@ -1,6 +1,6 @@
 /*
 The Rust community has developed guidelines for splitting the separate concerns
-of a binary program  when main starts getting large. This process has the
+of a binary program when main starts getting large. This process has the
 following steps:
   1) Split your program into a main.rs and a lib.rs and move your program’s logic
     to lib.rs.
@@ -16,9 +16,8 @@ be limited to the following:
   4) Handling the error if run returns an error
 */
 
-use std::env;
-use std::fs;
-use std::process;
+use std::{env, process};
+use minigrep::Config;
 
 fn main() {
     // Reading arg values
@@ -32,28 +31,9 @@ fn main() {
 
     println!("Searching for '{}'", config.query);
     println!("In file '{}'", config.file_path);
-
-    // Reading a file
-    let contents = fs::read_to_string(config.file_path)
-        .expect("Should have been able to read the file");
-
-    println!("With text:\n{contents}");
-}
-
-struct Config {
-    query: String,
-    file_path: String,
-}
-
-impl Config {
-    fn build(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            return Err("not enough arguments");
-        }
-        let query = args[1].clone();
-        let file_path = args[2].clone();
     
-        Ok(Config { query, file_path })
+    if let Err(e) = minigrep::run(config) {
+        println!("Application error: {e}");
+        process::exit(1);
     }
 }
-
