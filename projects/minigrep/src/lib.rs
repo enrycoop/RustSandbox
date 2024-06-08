@@ -18,8 +18,6 @@ impl Config {
     }
 }
 
-// Box<dyn Error> ci permette di dire che ci sara` un tipo che implementera` 
-// il trait Error senza specificare il tipo esatto
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(config.file_path)?;
 
