@@ -1,85 +1,85 @@
 {
 	"folders": [
 		{
-			"path": "Chapter 1 - Getting Started/hello_world"
+			"path": "Chapter 01 - Getting Started/hello_world"
 		},
 		{
-			"path": "Chapter 2 - Programming Guessing Game/guessing_game"
+			"path": "Chapter 02 - Programming Guessing Game/guessing_game"
 		},
 		{
-			"path": "Chapter 3 - Common Programming Concepts/data_types"
+			"path": "Chapter 03 - Common Programming Concepts/data_types"
 		},
 		{
-			"path": "Chapter 3 - Common Programming Concepts/variables"
+			"path": "Chapter 03 - Common Programming Concepts/variables"
 		},
 		{
-			"path": "Chapter 3 - Common Programming Concepts/control_flow"
+			"path": "Chapter 03 - Common Programming Concepts/control_flow"
 		},
 		{
-			"path": "Chapter 3 - Common Programming Concepts/functions"
+			"path": "Chapter 03 - Common Programming Concepts/functions"
 		},
 		{
-			"path": "Chapter 4 - Understanding Ownership/ownership"
+			"path": "Chapter 04 - Understanding Ownership/ownership"
 		},
 		{
-			"path": "Chapter 4 - Understanding Ownership/references_and_borrowing"
+			"path": "Chapter 04 - Understanding Ownership/references_and_borrowing"
 		},
 		{
-			"path": "Chapter 4 - Understanding Ownership/slices"
+			"path": "Chapter 04 - Understanding Ownership/slices"
 		},
 		{
-			"path": "Chapter 5 - Using Structs to Structure Related data/example"
+			"path": "Chapter 05 - Using Structs to Structure Related data/example"
 		},
 		{
-			"path": "Chapter 5 - Using Structs to Structure Related data/structures"
+			"path": "Chapter 05 - Using Structs to Structure Related data/structures"
 		},
 		{
-			"path": "Chapter 6 - Enums and Pattern Matching/concise_control_flow"
+			"path": "Chapter 06 - Enums and Pattern Matching/concise_control_flow"
 		},
 		{
-			"path": "Chapter 6 - Enums and Pattern Matching/enum_option_case_study"
+			"path": "Chapter 06 - Enums and Pattern Matching/enum_option_case_study"
 		},
 		{
-			"path": "Chapter 6 - Enums and Pattern Matching/enums_and_pattern_matching"
+			"path": "Chapter 06 - Enums and Pattern Matching/enums_and_pattern_matching"
 		},
 		{
-			"path": "Chapter 6 - Enums and Pattern Matching/example"
+			"path": "Chapter 06 - Enums and Pattern Matching/example"
 		},
 		{
-			"path": "Chapter 6 - Enums and Pattern Matching/match_control_flow_construct"
+			"path": "Chapter 06 - Enums and Pattern Matching/match_control_flow_construct"
 		},
 		{
-			"path": "Chapter 7 - Managing Growing Projects with Packages, Crates, and Modules/backyard"
+			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/backyard"
 		},
 		{
-			"path": "Chapter 7 - Managing Growing Projects with Packages, Crates, and Modules/modules_into_different_files"
+			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/modules_into_different_files"
 		},
 		{
-			"path": "Chapter 7 - Managing Growing Projects with Packages, Crates, and Modules/resturant"
+			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/resturant"
 		},
 		{
-			"path": "Chapter 7 - Managing Growing Projects with Packages, Crates, and Modules/use_keyword"
+			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/use_keyword"
 		},
 		{
-			"path": "Chapter 8 - Common Collections/HashMap"
+			"path": "Chapter 08 - Common Collections/HashMap"
 		},
 		{
-			"path": "Chapter 8 - Common Collections/String"
+			"path": "Chapter 08 - Common Collections/String"
 		},
 		{
-			"path": "Chapter 8 - Common Collections/Vec"
+			"path": "Chapter 08 - Common Collections/Vec"
 		},
 		{
-			"path": "Chapter 9 - Error Handling/guess_example"
+			"path": "Chapter 09 - Error Handling/guess_example"
 		},
 		{
-			"path": "Chapter 9 - Error Handling/propagating_errors"
+			"path": "Chapter 09 - Error Handling/propagating_errors"
 		},
 		{
-			"path": "Chapter 9 - Error Handling/recoverable_errors_with_result"
+			"path": "Chapter 09 - Error Handling/recoverable_errors_with_result"
 		},
 		{
-			"path": "Chapter 9 - Error Handling/unrecoverable_errors_with_panic"
+			"path": "Chapter 09 - Error Handling/unrecoverable_errors_with_panic"
 		},
 		{
 			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/removing_duplication_by_extracting_a_function"
