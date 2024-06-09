@@ -116,6 +116,9 @@
         },
         {
             "path": "Chapter 13 - Functional Language Features - Iterators and Closures/fn_traits"
+        },
+        {
+            "path": "Chapter 13 - Functional Language Features - Iterators and Closures/iterators"
         }
     ],
 	"settings": {}
