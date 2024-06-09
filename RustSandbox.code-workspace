@@ -1,113 +1,122 @@
 {
 	"folders": [
-		{
-			"path": "Chapter 01 - Getting Started/hello_world"
-		},
-		{
-			"path": "Chapter 02 - Programming Guessing Game/guessing_game"
-		},
-		{
-			"path": "Chapter 03 - Common Programming Concepts/data_types"
-		},
-		{
-			"path": "Chapter 03 - Common Programming Concepts/variables"
-		},
-		{
-			"path": "Chapter 03 - Common Programming Concepts/control_flow"
-		},
-		{
-			"path": "Chapter 03 - Common Programming Concepts/functions"
-		},
-		{
-			"path": "Chapter 04 - Understanding Ownership/ownership"
-		},
-		{
-			"path": "Chapter 04 - Understanding Ownership/references_and_borrowing"
-		},
-		{
-			"path": "Chapter 04 - Understanding Ownership/slices"
-		},
-		{
-			"path": "Chapter 05 - Using Structs to Structure Related data/example"
-		},
-		{
-			"path": "Chapter 05 - Using Structs to Structure Related data/structures"
-		},
-		{
-			"path": "Chapter 06 - Enums and Pattern Matching/concise_control_flow"
-		},
-		{
-			"path": "Chapter 06 - Enums and Pattern Matching/enum_option_case_study"
-		},
-		{
-			"path": "Chapter 06 - Enums and Pattern Matching/enums_and_pattern_matching"
-		},
-		{
-			"path": "Chapter 06 - Enums and Pattern Matching/example"
-		},
-		{
-			"path": "Chapter 06 - Enums and Pattern Matching/match_control_flow_construct"
-		},
-		{
-			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/backyard"
-		},
-		{
-			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/modules_into_different_files"
-		},
-		{
-			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/resturant"
-		},
-		{
-			"path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/use_keyword"
-		},
-		{
-			"path": "Chapter 08 - Common Collections/HashMap"
-		},
-		{
-			"path": "Chapter 08 - Common Collections/String"
-		},
-		{
-			"path": "Chapter 08 - Common Collections/Vec"
-		},
-		{
-			"path": "Chapter 09 - Error Handling/guess_example"
-		},
-		{
-			"path": "Chapter 09 - Error Handling/propagating_errors"
-		},
-		{
-			"path": "Chapter 09 - Error Handling/recoverable_errors_with_result"
-		},
-		{
-			"path": "Chapter 09 - Error Handling/unrecoverable_errors_with_panic"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/removing_duplication_by_extracting_a_function"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/generic_in_functions"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/generic_in_struct"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/defining_a_trait"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/aggregator"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/validating_references_with_lifetimes"
-		},
-		{
-			"path": "Chapter 10 - Generic Types, Traits, and Lifetimes/lifetime_annotations_in_struct_definitions"
-		},
-		{
-			"path": "Chapter 11 - Writing Automated Tests/adder"
-		},
-		{
-			"path": "projects/minigrep"
-		}
-	],
+        {
+            "path": "Chapter 01 - Getting Started/hello_world"
+        },
+        {
+            "path": "Chapter 02 - Programming Guessing Game/guessing_game"
+        },
+        {
+            "path": "Chapter 03 - Common Programming Concepts/data_types"
+        },
+        {
+            "path": "Chapter 03 - Common Programming Concepts/variables"
+        },
+        {
+            "path": "Chapter 03 - Common Programming Concepts/control_flow"
+        },
+        {
+            "path": "Chapter 03 - Common Programming Concepts/functions"
+        },
+        {
+            "path": "Chapter 04 - Understanding Ownership/ownership"
+        },
+        {
+            "path": "Chapter 04 - Understanding Ownership/references_and_borrowing"
+        },
+        {
+            "path": "Chapter 04 - Understanding Ownership/slices"
+        },
+        {
+            "path": "Chapter 05 - Using Structs to Structure Related data/example"
+        },
+        {
+            "path": "Chapter 05 - Using Structs to Structure Related data/structures"
+        },
+        {
+            "path": "Chapter 06 - Enums and Pattern Matching/concise_control_flow"
+        },
+        {
+            "path": "Chapter 06 - Enums and Pattern Matching/enum_option_case_study"
+        },
+        {
+            "path": "Chapter 06 - Enums and Pattern Matching/enums_and_pattern_matching"
+        },
+        {
+            "path": "Chapter 06 - Enums and Pattern Matching/example"
+        },
+        {
+            "path": "Chapter 06 - Enums and Pattern Matching/match_control_flow_construct"
+        },
+        {
+            "path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/backyard"
+        },
+        {
+            "path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/modules_into_different_files"
+        },
+        {
+            "path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/resturant"
+        },
+        {
+            "path": "Chapter 07 - Managing Growing Projects with Packages, Crates, and Modules/use_keyword"
+        },
+        {
+            "path": "Chapter 08 - Common Collections/HashMap"
+        },
+        {
+            "path": "Chapter 08 - Common Collections/String"
+        },
+        {
+            "path": "Chapter 08 - Common Collections/Vec"
+        },
+        {
+            "path": "Chapter 09 - Error Handling/guess_example"
+        },
+        {
+            "path": "Chapter 09 - Error Handling/propagating_errors"
+        },
+        {
+            "path": "Chapter 09 - Error Handling/recoverable_errors_with_result"
+        },
+        {
+            "path": "Chapter 09 - Error Handling/unrecoverable_errors_with_panic"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/removing_duplication_by_extracting_a_function"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/generic_in_functions"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/generic_in_struct"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/defining_a_trait"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/aggregator"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/validating_references_with_lifetimes"
+        },
+        {
+            "path": "Chapter 10 - Generic Types, Traits, and Lifetimes/lifetime_annotations_in_struct_definitions"
+        },
+        {
+            "path": "Chapter 11 - Writing Automated Tests/adder"
+        },
+        {
+            "path": "projects/minigrep"
+        },
+        {
+            "path": "Chapter 13 - Functional Language Features - Iterators and Closures/capturing_references_or_moving_ownership"
+        },
+        {
+            "path": "Chapter 13 - Functional Language Features - Iterators and Closures/capturing_the_environment_with_closures"
+        },
+        {
+            "path": "Chapter 13 - Functional Language Features - Iterators and Closures/fn_traits"
+        }
+    ],
 	"settings": {}
 }

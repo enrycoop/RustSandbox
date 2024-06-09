@@ -18,6 +18,9 @@ Se la persona scelta ha il suo colore preferito settato, ottengono
 quel colore di t-shirt, altrimenti un colore a caso.
  */
 
+use std::thread;
+use std::time::Duration;
+
 #[derive(Debug, PartialEq, Copy, Clone)]
 enum ShirtColor {
     Red,
@@ -54,6 +57,7 @@ impl Inventory {
 
 
 fn main() {
+
     let store = Inventory {
         shirts: vec![ShirtColor::Blue, ShirtColor::Red, ShirtColor::Blue],
     };
@@ -72,4 +76,13 @@ fn main() {
         "the user with preference {:?} gets {:?}",
         user_pref2, giveaway2
     );
+
+    let expensive_closure = |num: u32| -> u32 {
+        println!("calculating slowly...");
+        thread::sleep(Duration::from_secs(2));
+        num
+    };
+    let x = expensive_closure(5);
+    println!("{}", x);
+
 }
