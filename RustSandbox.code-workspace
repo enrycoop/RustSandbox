@@ -119,6 +119,9 @@
         },
         {
             "path": "Chapter 13 - Functional Language Features - Iterators and Closures/iterators"
+        },
+        {
+            "path": "Chapter 13 - Functional Language Features - Iterators and Closures/closures_to_capture_environment"
         }
     ],
 	"settings": {}
