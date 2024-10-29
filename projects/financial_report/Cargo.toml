@@ -1,0 +1,9 @@
+[package]
+name = "financial_report"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+postgres = { version = "0.19", features = ["with-chrono-0_4"] }
+chrono = "0.4"
+bigdecimal = "0.3"
